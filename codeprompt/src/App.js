@@ -24,7 +24,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-logo">CodePrompt</div>
-        <h1>Welcome to CodePrompt</h1>
         <p>
           CodePrompt is a collaborative Twitch coding bot. Use <code>!prompt</code> to code interactively with others.
         </p>
@@ -43,7 +42,7 @@ function App() {
         </a>
         <a
           className="App-link App-cta"
-          href="https://github.com/CodePrompt"
+          href="https://github.com/DanAskerCodePrompt"
           target="_blank"
           rel="noopener noreferrer"
         >
