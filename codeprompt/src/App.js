@@ -41,6 +41,19 @@ function App() {
           />
           Visit our Twitch Channel
         </a>
+        <a
+          className="App-link App-cta"
+          href="https://github.com/CodePrompt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt="GitHub Logo"
+            className="GitHub-logo"
+          />
+          Visit our GitHub Repository
+        </a>
       </header>
       <main>
         <section className="App-features">
