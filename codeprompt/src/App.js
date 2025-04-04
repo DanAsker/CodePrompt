@@ -9,9 +9,6 @@ function App() {
         <p>
           Welcome to the CodePrompt App! Join us live on Twitch as we code together.
         </p>
-        <p>
-          Edit <code>src/App.js</code> and watch the changes live during our stream.
-        </p>
         <a
           className="App-link"
           href="https://twitch.tv/yourchannel"
