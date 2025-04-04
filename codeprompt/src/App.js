@@ -34,7 +34,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitch_Logo_2019.svg"
+            src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png"
             alt="Twitch Logo"
             className="Twitch-logo"
           />
@@ -42,18 +42,26 @@ function App() {
         </a>
         <a
           className="App-link App-cta"
-          href="https://github.com/DanAskerCodePrompt"
+          href="https://github.com/DanAsker/CodePrompt"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             alt="GitHub Logo"
             className="GitHub-logo"
+            style={{ width: '32px', height: '32px', backgroundColor: 'transparent' }}
           />
           Visit our GitHub Repository
         </a>
       </header>
+      <style>
+        {`
+          .App-cta {
+            margin-bottom: 16px;
+          }
+        `}
+      </style>
       <main>
         <section className="App-features">
           <h2>Features</h2>
