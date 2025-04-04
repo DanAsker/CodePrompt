@@ -3,8 +3,32 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9146FF; /* Twitch brand color */
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid;
+  animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12ch; /* Adjust based on the length of "CodePrompt" */
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: black;
+  }
 }
 
 .App-header {
@@ -31,15 +55,6 @@
 
 .App-link {
   color: #9146FF; /* Twitch brand color */
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .App-features {

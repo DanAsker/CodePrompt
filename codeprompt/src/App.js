@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="CodePrompt logo" />
+        <div className="App-logo">CodePrompt</div>
         <h1>Welcome to CodePrompt</h1>
         <p>
-          CodePrompt is a collaborative Twitch coding bot for TTVCodePrompt. Use <code>!prompt</code> to code interactively with others.
+          CodePrompt is a collaborative Twitch coding bot. Use <code>!prompt</code> to code interactively with others.
         </p>
         <a
           className="App-link"
