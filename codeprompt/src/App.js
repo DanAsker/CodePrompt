@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="App-logo">CodePrompt</h1>
         <p>
           Welcome to the CodePrompt App! Your journey into React starts here.
         </p>
