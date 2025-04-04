@@ -29,11 +29,16 @@ function App() {
           CodePrompt is a collaborative Twitch coding bot. Use <code>!prompt</code> to code interactively with others.
         </p>
         <a
-          className="App-link"
+          className="App-link App-cta"
           href="https://www.twitch.tv/CodePrompt"
           target="_blank"
           rel="noopener noreferrer"
         >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitch_Logo_2019.svg"
+            alt="Twitch Logo"
+            className="Twitch-logo"
+          />
           Visit our Twitch Channel
         </a>
       </header>
