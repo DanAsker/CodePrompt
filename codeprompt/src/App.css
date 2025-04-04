@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,8 +18,19 @@
   color: white;
 }
 
+.App-header h1 {
+  font-size: 2.5rem;
+  margin: 0.5em 0;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
 .App-link {
-  color: #61dafb;
+  color: #9146FF; /* Twitch brand color */
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +40,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-features {
+  margin: 2em auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.App-features h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.App-features ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.App-features li {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
