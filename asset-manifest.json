@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/css/main.f6f4127b.css",
-    "main.js": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/js/main.27e073ef.js",
-    "static/js/453.a0cc5af5.chunk.js": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/js/453.a0cc5af5.chunk.js",
-    "static/media/logo.svg": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/index.html",
-    "main.f6f4127b.css.map": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/css/main.f6f4127b.css.map",
-    "main.27e073ef.js.map": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/js/main.27e073ef.js.map",
-    "453.a0cc5af5.chunk.js.map": "/CodePrompt%20-%20A%20collaborative%20Twitch%20coding%20bot%20for%20TTVCodePrompt/static/js/453.a0cc5af5.chunk.js.map"
+    "main.css": "/CodePrompt/static/css/main.f6f4127b.css",
+    "main.js": "/CodePrompt/static/js/main.7b91e866.js",
+    "static/js/453.a0cc5af5.chunk.js": "/CodePrompt/static/js/453.a0cc5af5.chunk.js",
+    "static/media/logo.svg": "/CodePrompt/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CodePrompt/index.html",
+    "main.f6f4127b.css.map": "/CodePrompt/static/css/main.f6f4127b.css.map",
+    "main.7b91e866.js.map": "/CodePrompt/static/js/main.7b91e866.js.map",
+    "453.a0cc5af5.chunk.js.map": "/CodePrompt/static/js/453.a0cc5af5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6f4127b.css",
-    "static/js/main.27e073ef.js"
+    "static/js/main.7b91e866.js"
   ]
 }
