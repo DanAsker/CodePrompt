@@ -7,21 +7,21 @@ function App() {
       <header className="App-header">
         <h1 className="App-logo">CodePrompt</h1>
         <p>
-          Welcome to the CodePrompt App! Your journey into React starts here.
+          Welcome to the CodePrompt App! Join us live on Twitch as we code together.
         </p>
         <p>
-          Edit <code>src/App.js</code> and save to see your changes instantly.
+          Edit <code>src/App.js</code> and watch the changes live during our stream.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://twitch.tv/yourchannel"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Explore React Documentation
+          Watch us on Twitch
         </a>
         <p>
-          Happy coding! 🚀
+          Let's build something amazing together! 🚀
         </p>
       </header>
     </div>
