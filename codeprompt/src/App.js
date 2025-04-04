@@ -62,6 +62,10 @@ function App() {
             margin-bottom: 16px;
             background-color: #007BFF; /* Suggested new color: Bootstrap primary blue */
             color: white;
+            padding: 0.75em 1.5em; /* Consistent padding for both buttons */
+            display: inline-flex;
+            align-items: center; /* Align content vertically */
+            gap: 0.5em; /* Add spacing between icon and text */
           }
         `}
       </style>
