@@ -1,6 +1,25 @@
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    const features = document.querySelectorAll('.App-features li');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    features.forEach((feature) => observer.observe(feature));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
