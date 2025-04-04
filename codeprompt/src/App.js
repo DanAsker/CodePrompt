@@ -37,6 +37,7 @@ function App() {
             src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png"
             alt="Twitch Logo"
             className="Twitch-logo"
+            style={{ animation: 'none' }} // Removed bouncing animation
           />
           Visit our Twitch Channel
         </a>
@@ -50,7 +51,7 @@ function App() {
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             alt="GitHub Logo"
             className="GitHub-logo"
-            style={{ width: '32px', height: '32px', backgroundColor: 'transparent' }}
+            style={{ width: '32px', height: '32px', backgroundColor: 'transparent', filter: 'invert(100%)' }} // White fill
           />
           Visit our GitHub Repository
         </a>
@@ -59,6 +60,8 @@ function App() {
         {`
           .App-cta {
             margin-bottom: 16px;
+            background-color: #007BFF; /* Suggested new color: Bootstrap primary blue */
+            color: white;
           }
         `}
       </style>
