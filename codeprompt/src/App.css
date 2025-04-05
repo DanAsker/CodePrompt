@@ -38,12 +38,12 @@ body {
 
 .App-header {
   background-color: #282c34;
-  min-height: 150vh; /* Increased by 50% */
+  min-height: 100vh; /* Fit within the viewport height */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between; /* Distribute content evenly */
-  padding-bottom: 2em; /* Add spacing at the bottom */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  padding: 2em; /* Add some padding for spacing */
   font-size: calc(15px + 3vmin); /* Increased by 50% */
   color: white;
   background-image: url('https://example.com/pigeon.jpg'); /* Replace with the actual URL of the pigeon image */
@@ -154,8 +154,10 @@ body {
   .App-header {
     font-size: calc(12px + 3vmin); /* Increased by 50% */
     padding: 1em;
-    justify-content: space-between; /* Ensure content is not pushed too far down on mobile */
-    padding-bottom: 1.5em; /* Adjust spacing for smaller screens */
+    justify-content: center; /* Ensure content is not pushed too far down on mobile */
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh; /* Ensure it fits on smaller screens */
+    padding: 1.5em; /* Adjust padding for mobile */
   }
 
   .App-logo {
