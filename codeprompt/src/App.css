@@ -40,6 +40,10 @@
   justify-content: center;
   font-size: calc(15px + 3vmin); /* Increased by 50% */
   color: white;
+  background-image: url('https://example.com/pigeon.jpg'); /* Replace with the actual URL of the pigeon image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .App-header h1 {
