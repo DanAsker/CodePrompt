@@ -1,5 +1,6 @@
 body {
-  transform: scaleX(-1);
+  transform: scaleX(-0.9) scaleY(0.9); /* Flip horizontally and reduce size by 90% */
+  transform-origin: center; /* Ensure scaling is centered */
 }
 
 .App {

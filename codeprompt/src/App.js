@@ -68,7 +68,7 @@ function App() {
             width="32"
             height="32"
             style={{ marginRight: '8px' }}
-            transform="scale(-1, 1)" // Flip horizontally
+            transform="scale(-0.9, 0.9)" // Flip horizontally and reduce size
           >
             <circle cx="32" cy="32" r="30" fill="#FFD700" />
             <path
