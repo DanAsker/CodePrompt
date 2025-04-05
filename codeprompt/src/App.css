@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end; /* Align content to the bottom */
+  justify-content: space-between; /* Distribute content evenly */
   padding-bottom: 2em; /* Add spacing at the bottom */
   font-size: calc(15px + 3vmin); /* Increased by 50% */
   color: white;
@@ -154,7 +154,7 @@ body {
   .App-header {
     font-size: calc(12px + 3vmin); /* Increased by 50% */
     padding: 1em;
-    justify-content: flex-end; /* Ensure content is grouped at the bottom on mobile */
+    justify-content: space-between; /* Ensure content is not pushed too far down on mobile */
     padding-bottom: 1.5em; /* Adjust spacing for smaller screens */
   }
 
