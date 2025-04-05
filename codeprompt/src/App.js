@@ -61,6 +61,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Pizza_icon.svg" // Example pizza icon URL
+            alt="Pizza Icon"
+            className="Pizza-icon"
+            style={{ width: '32px', height: '32px', marginRight: '8px' }} // Adjust size and spacing
+          />
           Order Domino's Pizza
         </a>
       </header>

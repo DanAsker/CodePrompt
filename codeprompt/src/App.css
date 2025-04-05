@@ -140,6 +140,10 @@
   }
 }
 
+.Pizza-icon {
+  vertical-align: middle;
+}
+
 @media (max-width: 768px) {
   .App-header {
     font-size: calc(12px + 3vmin); /* Increased by 50% */
