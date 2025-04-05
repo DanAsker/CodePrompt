@@ -105,6 +105,22 @@
   box-shadow: 0 4px 15px rgba(145, 70, 255, 0.5);
 }
 
+.App-dominos {
+  font-size: 2rem; /* Large font size */
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #E31837; /* Domino's red */
+  color: white;
+  padding: 1em 2em; /* Larger padding for a big button */
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.App-dominos:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(227, 24, 55, 0.5);
+}
+
 .Twitch-logo {
   height: 2.25em; /* Increased by 50% */
   width: auto;

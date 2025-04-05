@@ -55,6 +55,14 @@ function App() {
           />
           Visit our GitHub Repository
         </a>
+        <a
+          className="App-link App-cta App-dominos"
+          href="https://www.dominos.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Order Domino's Pizza
+        </a>
       </header>
       <style>
         {`
