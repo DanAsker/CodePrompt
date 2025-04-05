@@ -42,7 +42,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end; /* Align content to the bottom */
+  padding-bottom: 2em; /* Add spacing at the bottom */
   font-size: calc(15px + 3vmin); /* Increased by 50% */
   color: white;
   background-image: url('https://example.com/pigeon.jpg'); /* Replace with the actual URL of the pigeon image */
@@ -153,6 +154,8 @@ body {
   .App-header {
     font-size: calc(12px + 3vmin); /* Increased by 50% */
     padding: 1em;
+    justify-content: flex-end; /* Ensure content is grouped at the bottom on mobile */
+    padding-bottom: 1.5em; /* Adjust spacing for smaller screens */
   }
 
   .App-logo {
