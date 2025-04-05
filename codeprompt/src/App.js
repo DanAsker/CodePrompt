@@ -61,12 +61,23 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Pizza_icon.svg" // Example pizza icon URL
-            alt="Pizza Icon"
+          <svg
             className="Pizza-icon"
-            style={{ width: '32px', height: '32px', marginRight: '8px' }} // Adjust size and spacing
-          />
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            width="32"
+            height="32"
+            style={{ marginRight: '8px' }}
+          >
+            <circle cx="32" cy="32" r="30" fill="#FFD700" />
+            <path
+              d="M32 2C15.4 2 2 15.4 2 32s13.4 30 30 30 30-13.4 30-30S48.6 2 32 2zm0 56C17.4 58 6 46.6 6 32S17.4 6 32 6s26 11.4 26 26-11.4 26-26 26z"
+              fill="#E31837"
+            />
+            <circle cx="22" cy="22" r="4" fill="#FFFFFF" />
+            <circle cx="42" cy="22" r="4" fill="#FFFFFF" />
+            <circle cx="32" cy="42" r="4" fill="#FFFFFF" />
+          </svg>
           Order Domino's Pizza
         </a>
       </header>
