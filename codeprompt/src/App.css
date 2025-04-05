@@ -1,3 +1,7 @@
+body {
+  transform: scaleX(-1);
+}
+
 .App {
   text-align: center;
 }
